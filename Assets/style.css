@@ -1,11 +1,27 @@
+/*comment on element.style below*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
+/*added display rule for head element..insert better description*/
+head {
+    display: none;
+}
 
 body {
     background-color: #d9dcd6;
+}
+/*added box sizing*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/*added body*/
+body {
+    display: block;
+    margin: 8px;
 }
 
 .header {
@@ -14,10 +30,26 @@ body {
     background-color: #2a607c;
     color: #ffffff;
 }
+/*added more box sizing*/
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+/*added div display block rule for accessibility*/
+div {
+    display: block;
+}
 
 .header h1 {
     display: inline-block;
     font-size: 48px;
+}
+/*added mor box sizing*/
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px; 
 }
 
 .header h1 .seo {
