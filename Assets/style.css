@@ -1,12 +1,12 @@
-* {
+* {  
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-}
+} /*universal selector*/
 
 body {
     background-color: #d9dcd6;
-}
+} /*sets background color of anything with tag body to specified color*/
 
 .header {
     padding: 20px;
