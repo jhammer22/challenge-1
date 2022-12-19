@@ -18,11 +18,11 @@ body {
 .header h1 {
     display: inline-block;
     font-size: 48px;
-}
+} /*rule for h1 header tag*/
 
 .header h1 .seo {
     color: #d9dcd6;
-}
+} /*rule that sets background color */
 
 .header div {
     padding-top: 15px;
@@ -39,16 +39,16 @@ body {
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
-}
+} /*sets alignment*/
 
 a {
     color: #ffffff;
     text-decoration: none;
-}
+} /*sets background color for a tag in html*/
 
 p {
     font-size: 16px;
-}
+} /*sets font size for p element in the html*/
 
 .hero {
     height: 800px;
